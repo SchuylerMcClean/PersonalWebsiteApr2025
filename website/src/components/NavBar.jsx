@@ -7,19 +7,24 @@ const NavBar = () => {
       <div className="navbar">
         <div>
           <button id="navbar">
-            <NavLink className="navbar-item" to="/">
+            <a className="navbar-item" href="#home">
               Home
-            </NavLink>
+            </a>
           </button>
-          <button id="navbar">
-            <NavLink className="navbar-item" to="/about">
+          <button>
+            <a className="navbar-item" href="#about">
               About
-            </NavLink>
+            </a>
           </button>
           <button id="navbar">
-            <NavLink className="navbar-item" to="/projects">
+            <a className="navbar-item" href="#projects">
               Projects
-            </NavLink>
+            </a>
+          </button>
+          <button id="navbar">
+            <a className="navbar-item" href="#contact">
+              Contact
+            </a>
           </button>
         </div>
       </div>
