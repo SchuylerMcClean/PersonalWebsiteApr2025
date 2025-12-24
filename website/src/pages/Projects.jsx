@@ -8,8 +8,15 @@ import oldWebsiteHome from "../images/oldWebsiteHome.png";
 import oldWebsiteAbout from "../images/oldWebsiteAbout.png";
 import oldWebsiteContact from "../images/oldWebsiteContact.png";
 import newWebsiteHomepage from "../images/newWebsiteHomepage.png";
+import gradeCalcImg1 from "../images/gradecalculator1.png";
+import gradeCalcImg3 from "../images/gradecalculator3.png";
+import gradeCalcImg4 from "../images/gradecalculator4.png";
 
 function Projects() {
+  const alteredH2Style = {
+    color: "black",
+  };
+  const grade_calc_images = [gradeCalcImg1, gradeCalcImg3, gradeCalcImg4];
   const images_website_current = [newWebsiteHomepage];
   const images_website_old = [
     oldWebsiteHome,
@@ -28,11 +35,25 @@ function Projects() {
       <div id="projects" className="container">
         <div className="projectspage">
           <div className="sm-break"></div>
-          <div className="sm-break"></div>
 
           <h3>Projects</h3>
+          <h2 style={alteredH2Style}>Check out some of my projects!</h2>
 
           <div className="sm-break"></div>
+
+          <div className="projectbox">
+            <div className="project-description">
+              <h4>Grade Calculator</h4>
+              <h5>Est. Dec 2025 | Not Maintained</h5>
+              <div className="project-text">
+                I designed and developed a grade calculator application using
+                React Native and TypeScript. Built with a focus on learning the
+                fundamentals of React Native development, this app displays
+                real-time weighted grade calculations based on user input.
+              </div>
+            </div>
+            <Gallery images={grade_calc_images} />
+          </div>
 
           <div className="projectbox">
             <div className="project-description">
@@ -49,7 +70,6 @@ function Projects() {
                 access.
               </div>
             </div>
-
             <Gallery images={images_website_current} />
           </div>
 

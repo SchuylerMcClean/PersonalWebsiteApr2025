@@ -228,7 +228,7 @@ p {
 
 .projectbox {
   width: 95vw;
-  border-color: black;
+  border-color: grey;
   border-radius: 5px;
   border-width: 2px;
   border-style: solid;
@@ -242,7 +242,7 @@ p {
 @media (min-width: 768px) {
   .projectbox {
     width: 80vw;
-    border-color: black;
+    border-color: grey;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;

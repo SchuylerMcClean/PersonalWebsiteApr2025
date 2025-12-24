@@ -7,8 +7,7 @@ function Contact() {
   return (
     <>
       <div id="contact" className="container">
-        <div className="extraspage">
-          <div className="sm-break"></div>
+        <div>
           <h3>Contact</h3>
 
           <div className="sm-break"></div>
@@ -17,7 +16,7 @@ function Contact() {
 
           <h6>Toronto ON | Guelph ON</h6>
 
-          <h6>mccleanschuyler@gmail.com</h6>
+          <h6>smcclean@uoguelph.ca</h6>
 
           <div className="sm-break"></div>
 

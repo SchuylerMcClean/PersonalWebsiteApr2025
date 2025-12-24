@@ -18,8 +18,6 @@ function About() {
     <>
       <div id="about" className="container">
         <div className="aboutpage">
-          <div className="sm-break"></div>
-
           <h3>About</h3>
           <h2>Let me introduce myself.</h2>
 
