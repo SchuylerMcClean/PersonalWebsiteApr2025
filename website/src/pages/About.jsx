@@ -2,6 +2,7 @@ import React from "react";
 
 import pythonImg from "../images/pythonLogo.webp";
 import cImg from "../images/cLogo.png";
+import tsImg from "../images/typescriptLogo.png";
 import cssImg from "../images/cssLogo.png";
 import htmlImg from "../images/htmlLogo.webp";
 import javaImg from "../images/javaLogo.svg";
@@ -18,16 +19,18 @@ function About() {
     <>
       <div id="about" className="container">
         <div className="aboutpage">
+          <div className="sm-break"></div>
           <h3>About</h3>
           <h2>Let me introduce myself.</h2>
 
           <div className="sm-break"></div>
 
           <div className="text">
-            I am a software developer seeking a software-related Co-op position
-            for summer 2026. I am an Honours Computer Science Co-op student at
-            the University of Guelph pursuing an emphasis in Artificial
-            Intelligence and a Minor in Mathematics.
+            I am a software developer based in Ontario with technical experience
+            at Tumblewire Inc, currently seeking a software co-op postion for
+            summer 2026. I am an Honours Computer Science Co-op student at the
+            University of Guelph pursuing an emphasis in Artificial Intelligence
+            and a Minor in Mathematics.
           </div>
 
           <div className="sm-break"></div>
@@ -40,6 +43,14 @@ function About() {
 
           <div className="logo-grid">
             <div className="logo-item">
+              <img src={reactImg} alt="React Logo"></img>
+            </div>
+
+            <div className="logo-item" style={{ scale: "1.2" }}>
+              <img src={javaImg} alt="Java Logo"></img>
+            </div>
+
+            <div className="logo-item">
               <img src={pythonImg} alt="Python Logo"></img>
             </div>
 
@@ -47,28 +58,16 @@ function About() {
               <img src={cImg} alt="C Logo"></img>
             </div>
 
-            <div className="logo-item" style={{ scale: "1.2" }}>
-              <img src={cssImg} alt="CSS Logo"></img>
+            <div className="logo-item" style={{ scale: "0.9" }}>
+              <img src={tsImg} alt="TypeScript Logo"></img>
             </div>
 
             <div className="logo-item" style={{ scale: "0.9" }}>
               <img src={javascriptImg} alt="JavaScript Logo"></img>
             </div>
 
-            <div className="logo-item" style={{ scale: "1.2" }}>
-              <img src={javaImg} alt="Java Logo"></img>
-            </div>
-
-            <div className="logo-item" style={{ scale: "1.1" }}>
-              <img src={htmlImg} alt="HTML Logo"></img>
-            </div>
-
             <div className="logo-item">
               <img src={sqlImg} alt="SQL Logo"></img>
-            </div>
-
-            <div className="logo-item">
-              <img src={reactImg} alt="React Logo"></img>
             </div>
 
             <div className="logo-item">
@@ -81,10 +80,6 @@ function About() {
 
             <div className="logo-item">
               <img src={gitlabImg} alt="Gitlab Logo"></img>
-            </div>
-
-            <div className="logo-item" style={{ filter: "invert(1)" }}>
-              <img src={linuxImg} alt="Linux Logo"></img>
             </div>
           </div>
 

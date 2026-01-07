@@ -8,6 +8,7 @@ function Contact() {
     <>
       <div id="contact" className="container">
         <div>
+          <div className="sm-break"></div>
           <h3>Contact</h3>
 
           <div className="sm-break"></div>

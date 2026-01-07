@@ -2,6 +2,7 @@ import React from "react";
 
 import linkedinImage from "../images/linkedin.png";
 import githubImage from "../images/github.png";
+import scrollImage from "../images/scrollArrow.png";
 
 function Home() {
   return (
@@ -11,7 +12,9 @@ function Home() {
           <div className="dark-opacity">
             <div className="homepage">
               <h1>SCHUYLER MCCLEAN</h1>
-              <h2>Software Developer | Computer Science Student</h2>
+              <h2>
+                Software Developer | Computer Science Student | Toronto ON
+              </h2>
               <div className="connect">
                 <div className="connect-items">
                   <a href="https://www.linkedin.com/in/schuylermcclean/">
@@ -23,6 +26,9 @@ function Home() {
                     <img src={githubImage} alt="GitHub Logo"></img>
                   </a>
                 </div>
+              </div>
+              <div className="scroll-indicator">
+                <img src={scrollImage} alt="Scroll Down Arrow" />
               </div>
             </div>
           </div>

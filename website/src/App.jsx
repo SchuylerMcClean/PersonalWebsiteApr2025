@@ -12,18 +12,12 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <NavBar />
-      </div>
-
       <Home />
       <About />
       <Projects />
       <Contact />
 
-      <div>
-        <EndBar />
-      </div>
+      <EndBar />
     </BrowserRouter>
   );
 }

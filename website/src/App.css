@@ -109,8 +109,7 @@ p {
 }
 
 .container {
-  padding-top: 50px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -130,7 +129,8 @@ p {
   background-image: url(images/darkMountains.jpg);
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,14 +140,14 @@ p {
   text-shadow: black 1px 0 10px;
 }
 .aboutpage {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .projectspage {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +184,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 5vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .connect-items {
@@ -339,4 +339,29 @@ p {
 
 .nav.right {
   right: 0;
+}
+
+.scroll-indicator {
+  height: 50px;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 2s infinite;
+}
+.scroll-indicator img {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -12px);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
 }
