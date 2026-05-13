@@ -27,7 +27,15 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div className="scroll-indicator">
+              <div
+                className="scroll-indicator"
+                onClick={() =>
+                  document
+                    .getElementById("about")
+                    .scrollIntoView({ behavior: "smooth" })
+                }
+                style={{ cursor: "pointer" }}
+              >
                 <img src={scrollImage} alt="Scroll Down Arrow" />
               </div>
             </div>

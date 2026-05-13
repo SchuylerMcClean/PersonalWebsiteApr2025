@@ -22,9 +22,11 @@ const Gallery = ({ images }) => {
 
   return (
     <div className="gallery-container">
-      <button className="nav left" onClick={() => scrollGallery(-1)}>
-        ❮
-      </button>
+      {index > 0 && (
+        <button className="nav left" onClick={() => scrollGallery(-1)}>
+          ❮
+        </button>
+      )}
       <div className="gallery-wrapper">
         <div className="gallery" ref={galleryRef}>
           {images.map((src, i) => (
@@ -32,9 +34,11 @@ const Gallery = ({ images }) => {
           ))}
         </div>
       </div>
-      <button className="nav right" onClick={() => scrollGallery(1)}>
-        ❯
-      </button>
+      {index < images.length - 1 && (
+        <button className="nav right" onClick={() => scrollGallery(1)}>
+          ❯
+        </button>
+      )}
     </div>
   );
 };

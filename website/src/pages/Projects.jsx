@@ -14,7 +14,7 @@ import gradeCalcImg4 from "../images/gradecalculator4.png";
 
 function Projects() {
   const alteredH2Style = {
-    color: "black",
+    color: "rgba(220, 220, 220, 0.9)",
   };
   const grade_calc_images = [gradeCalcImg1, gradeCalcImg3, gradeCalcImg4];
   const images_website_current = [newWebsiteHomepage];
@@ -37,9 +37,7 @@ function Projects() {
           <div className="sm-break"></div>
 
           <h3>Projects</h3>
-          <h2 style={alteredH2Style}>Check out some of my projects!</h2>
-
-          <div className="sm-break"></div>
+          <h2 style={alteredH2Style}>Check out my projects!</h2>
 
           <div className="projectbox">
             <div className="project-description">
