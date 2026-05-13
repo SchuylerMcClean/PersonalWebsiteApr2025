@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import NavBar from "./components/NavBar";
 import EndBar from "./components/EndBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -16,7 +15,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-
       <EndBar />
     </BrowserRouter>
   );

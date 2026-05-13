@@ -1,4 +1,4 @@
-import Gallery from "./Gallery";
+import Gallery from "../components/Gallery";
 
 import patagoniaHome from "../images/patagoniaHomepage.png";
 import patagoniaActivities from "../images/patagoniaActivities.png";
@@ -33,9 +33,7 @@ function Projects() {
   return (
     <>
       <div id="projects" className="container">
-        <div className="projectspage">
-          <div className="sm-break"></div>
-
+        <div className="page">
           <h3>Projects</h3>
           <h2 style={alteredH2Style}>Check out my projects!</h2>
 
@@ -102,7 +100,6 @@ function Projects() {
             </div>
             <Gallery images={images_patagonia} />
           </div>
-
           <div className="sm-break"></div>
         </div>
       </div>

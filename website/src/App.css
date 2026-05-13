@@ -85,54 +85,6 @@ p {
   font-size: 0.6em;
 }
 
-.navbar {
-  width: 100vw;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.45) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-}
-@media (min-width: 768px) {
-  .navbar {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-  }
-}
-.navbar button {
-  background-color: transparent;
-  color: white;
-  border: 2px solid;
-  border-color: transparent;
-  border-radius: 5%;
-  padding: 10px;
-}
-.navbar-item {
-  padding: 20px;
-  text-decoration: none;
-  background-color: transparent;
-  color: white;
-  font-size: 0.9rem;
-  border: 2px solid;
-  border-color: black;
-  border-radius: 5%;
-  padding: 10px;
-}
-.navbar-item:hover {
-  border-color: white;
-}
 .active-link {
   padding: 20px;
   text-decoration: none;
@@ -167,6 +119,7 @@ p {
   justify-items: center;
   text-align: center;
 }
+
 .dark-opacity {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100vh;
@@ -199,16 +152,7 @@ p {
   background: linear-gradient(to bottom, transparent, black);
   pointer-events: none;
 }
-.aboutpage {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  padding-bottom: 4vh;
-}
-.projectspage {
+.page {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -353,40 +297,14 @@ p {
 
 @media (min-width: 768px) {
   .projectbox {
-    width: 90vw;
-    max-width: 1100px;
-    background-color: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-    color: white;
-    margin: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: visible;
   }
 }
 
 @media (min-width: 1200px) {
   .projectbox {
-    width: 90vw;
-    max-width: 1100px;
-    background-color: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-    color: white;
-    margin: 10px;
-    margin-left: 10px;
-    display: grid;
     grid-template-columns: 3fr 2fr;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: visible;
   }
 }
 
@@ -399,15 +317,6 @@ p {
 .project-description {
   align-items: center;
   justify-items: center;
-}
-
-.contactpage {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  padding-bottom: 4vh;
 }
 
 .project-text {

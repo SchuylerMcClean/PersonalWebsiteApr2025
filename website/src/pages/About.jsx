@@ -18,8 +18,7 @@ function About() {
   return (
     <>
       <div id="about" className="container">
-        <div className="aboutpage">
-          <div className="sm-break"></div>
+        <div className="page">
           <h3>About</h3>
           <h2>Let me introduce myself.</h2>
 
@@ -104,14 +103,15 @@ function About() {
               </div>
             </div>
           </div>
-
           <div className="sm-break"></div>
+        </div>
+
+        <div className="page">
           <h3>Relevant Coursework</h3>
           <div className="sm-break" style={{ height: "1vh" }}></div>
           <CoursesTicker />
-
-          <div className="sm-break"></div>
         </div>
+        <div className="sm-break"></div>
       </div>
     </>
   );

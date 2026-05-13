@@ -7,8 +7,7 @@ function Contact() {
   return (
     <>
       <div id="contact" className="container">
-        <div className="contactpage">
-          <div className="sm-break"></div>
+        <div className="page">
           <h3>Contact</h3>
 
           <div className="glass-card" style={{ textAlign: "center" }}>
@@ -29,9 +28,6 @@ function Contact() {
               </div>
             </div>
           </div>
-
-          <div className="sm-break"></div>
-          <div className="sm-break"></div>
         </div>
       </div>
     </>
