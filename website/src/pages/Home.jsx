@@ -13,7 +13,11 @@ function Home() {
             <div className="homepage">
               <h1>SCHUYLER MCCLEAN</h1>
               <h2>
-                Software Developer | Computer Science Student | Ontario, Canada
+                <span className="h2-segment">Software Developer</span>
+                <span className="h2-sep"> | </span>
+                <span className="h2-segment">Computer Science Student</span>
+                <span className="h2-sep"> | </span>
+                <span className="h2-segment">Ontario, Canada</span>
               </h2>
               <div className="connect">
                 <div className="connect-items">
